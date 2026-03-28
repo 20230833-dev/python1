@@ -1,11 +1,7 @@
-a = int(input("nhap so nguyen thu nhat:"))
-b = int(input("nhap so nguyen thu hai:"))
-c = int(input("nhap so nguyen thu ba:"))
-tong_tich = a + b * c
-hieu = a - b 
-so_nguyen = a / b
-phan_du = a % b
-print(tong_tich)
-print(hieu)
-print(so_nguyen)
-print(phan_du)
+import time
+    x = time.localtime
+    year = x[0]
+    nam_sinh = int(input("nhap nam sinh"))
+
+    tuoi = year - nam_sinh
+    print("nam sinh " {nam_sinh}, vay ban {tuoi} tuoi)

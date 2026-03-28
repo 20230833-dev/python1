@@ -1,4 +1,6 @@
-a = int(input("Nhap gia tri thu nhat: "))
-b = int(input("Nhap gia tri thu hai: "))
-total = a + b
-print('Ket qua cua phep tinh la:', total)
+songuyenduong = int(input("Nhap so nguyen duong:"))
+
+if songuyenduong % 2 == 0:
+    print("so nay la so chan:",songuyenduong)
+else:
+    print("so nay la so le:", songuyenduong)
